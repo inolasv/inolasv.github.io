@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "SafelyLA",
+        "tags": ["MySQL", "Javascript", "Node.js", "React"],
+        "link": "https://github.com",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "id": 2,
+        "title": "RoomHub Roommate App",
+        "tags": ["MySQL", "Python", "Django", "Swift"],
+        "link": "https://github.com",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "id": 3,
+        "title": "ratemygeneds",
+        "tags": ["MongoDB", "Javascript", "Node.js", "React"],
+        "link": "https://github.com",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+        "id": 4,
+        "title": "Spotify 'Library'",
+        "tags": ["Javascript", "Node.js", "React"],
+        "link": "https://github.com",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, laboris nisi ut aliquip ex ea commodo consequat."
+    }
+]

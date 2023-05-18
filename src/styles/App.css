@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Metamorphous";
+  src: url("../fonts/Metamorphous/Metamorphous-Regular.ttf") format("ttf");
+}
+/* @font-face {
+  font-family: "Lora";
+  src: url("../fonts/Lora/Lora-VariableFont_wght.ttf") format("ttf");
+} */
+
+.App {
+  position: relative;
+  width: 1440px;
+  height: 4517px;
+  overflow-y: scroll;
+
+  background: #FFEBEB;
+}
+
+
+.greeting {
+  position: absolute;
+  width: 391px;
+  height: 35px;
+  left: 205px;
+  top: 304px;
+
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 51px;
+
+  color: #463939;
+
+}
+
+.name {
+  position: absolute;
+  width: 618px;
+  height: 89px;
+  left: 196px;
+  top: 364px;
+
+  font-family: 'Metamorphous';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+
+  color: #463939;
+}
+
+.elevator {
+  position: absolute;
+  width: 582px;
+  height: 260px;
+  left: 205px;
+  top: 461px;
+
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #463939;
+}
