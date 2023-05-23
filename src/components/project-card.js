@@ -20,11 +20,16 @@ function ProjectCard() {
     setPopupData(null);
   };
 
+  const getImgUrl = (img) => {
+    const images = require("../images/projects/" + img);
+    return images;
+  };
+
   const Popup = () => (
     <div>
       <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 w-full h-full">
         <div className="absolute w-screen h-screen" onClick={onHidePopup}></div>
-        <div className="bg-dark-pink flex flex-col outline outline-brown outline-8 rounded-lg border-brown border-8 hover: relative w-2/3 h-96 my-6 mx-auto max-w-3xl">
+        <div className="bg-dark-pink flex flex-col outline outline-brown dark:outline-light-pink outline-8 rounded-lg border-brown dark:border-light-pink border-8 hover: relative w-2/3 h-96 my-6 mx-auto max-w-3xl">
           <div className="font-heading text-brown text-3xl flex pt-10 pl-9 pb-3">
             {popupData.title}
           </div>
@@ -48,7 +53,7 @@ function ProjectCard() {
           </div>
 
           {/* body */}
-          <div className="flex pt-5 pl-9 grow">
+          <div className="flex pt-5 px-9 grow">
             <div className="font-body text-brown text-lg">
               {popupData.description}
             </div>
@@ -76,14 +81,19 @@ function ProjectCard() {
         {data.map((data) => {
           return (
             <div
-              key="{data.id}"
+              key={data.id}
               onClick={() => onShowPopup(data)}
-              className="bg-dark-pink hover:shadow-xl shadow-md w-80 h-96 flex m-24 items-start justify-center"
+              className="bg-dark-pink rounded-md outline outline-md outline-brown dark:outline-dark-pink hover:shadow-xl dark:shadow-[#FFEBEB33] shadow-md w-80 h-auto flex flex-col m-24 items-center justify-start"
             >
-              <div className="text-brown font-heading text-4xl flex text-center px-2 pt-10">
+              <div className="text-brown font-heading text-2xl flex text-center px-2 py-10">
                 {" "}
                 {data.title}{" "}
               </div>
+              <img
+                className="flex object-contain w-auto max-h-64 aspect-auto px-2 pb-2"
+                src={getImgUrl(data.image)}
+                alt="rate my geneds image"
+              />
             </div>
           );
         })}

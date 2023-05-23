@@ -13,15 +13,15 @@ function ExperienceCards() {
         {data.map((data) => {
           return (
             <div
-              key="{data.id}"
+              key={data.id}
               className="flex flex-col bg-dark-pink shadow-md w-8/10 h-auto m-24 items-start justify-left"
             >
               <div className="text-brown font-heading text-4xl flex pl-10 pt-10">
                 {" "}
                 {data.title}{" "}
               </div>
-              <div className="text-brown font-body text-lg flex pl-24 py-10">
-                <ul className="list-disc list-inside">
+              <div className="text-brown font-body text-lg flex px-24 py-10">
+                <ul className="list-disc list-outside">
                   {data.description.map((point) => {
                     return <li key={point.length + data.id}>{point}</li>;
                   })}

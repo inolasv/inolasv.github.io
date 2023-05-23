@@ -1,71 +1,130 @@
+import React from "react";
+// import { useEffect, useState, useRef } from "react";
+
 import "../styles/App.css";
+
+// diamonds
 // import main_image from '../images/short_term_receiptify.png'; // Tell webpack this JS file uses this image
 import { ReactComponent as Diamonds } from "../images/diamonds-divider.svg";
-import { ReactComponent as Diamonds3 } from "../images/diamonds-3.svg";
-import { ReactComponent as Diamonds2 } from "../images/diamonds-2.svg";
-import ProjectCard from "../components/project-card";
-import ExperienceCards from "../components/experience-card";
+import { ReactComponent as DiamondsDark } from "../images/dark-mode-images/diamonds-divider.svg";
+
+import { useDarkMode, Toggle } from "../components/toggle-dark";
+// sections
+import AboutSection from "./about";
+import ProjectSection from "./projects";
+import ExperienceSection from "./experiences";
+import NavBar from "./nav";
+// import NavBarDown from "./nav-down";
+
+// const useScrollPosition = () => {
+//   const [scrollPosition, setScrollPosition] = useState(0);
+
+//   useEffect(() => {
+//     const updatePosition = () => {
+//       setScrollPosition(window.pageYOffset);
+//     };
+
+//     window.addEventListener("scroll", updatePosition);
+
+//     updatePosition();
+
+//     return () => window.removeEventListener("scroll", updatePosition);
+//   }, []);
+
+//   return scrollPosition;
+// };
+
 /**
  * Main function for webapp
  * @return {div} the html code
  */
 function App() {
+  const [darkMode, toggleDark] = useDarkMode();
+  console.log("min-h-screen " + darkMode);
   return (
-    <div className="">
-      <div className="flex space-evenly justify-center items-center pt-56">
-        <div className="flex flex-wrap flex-col px-40">
-          <div className="font-body text-4xl text-brown pb-6">
-            {" "}
-            Hello! My name is
-          </div>
-          <div className="font-heading text-7xl text-brown pb-4">
-            {" "}
-            Saloni Vaishnav{" "}
-          </div>
-          <div className="font-body text-xl text-brown">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+    <div className={darkMode}>
+      <div className="relative min-h-screen bg-light-pink dark:bg-brown">
+        <div className="fixed top-0 left-0 right-0">
+          <Toggle darkMode={darkMode} toggleDark={toggleDark}></Toggle>
+          <div>
+            <NavBar />
           </div>
         </div>
-        <div className="flex px-40">
-          {/* <img src={main_image} alt="main_image" /> */}3
-        </div>
-      </div>
 
-      <div className="flex pt-40 justify-center">
-        <Diamonds className="flex" />
-      </div>
+        <div className="snap-y snap-mandatory snap-always h-screen">
+          <div
+            id="Me"
+            className="flex space-evenly justify-center items-center pt-40 snap-start"
+          >
+            <AboutSection />
+          </div>
 
-      <div>
-        <div className="flex items-center space-x-6 pl-40 pt-40">
-          <Diamonds2 className="" />
-          <div className="font-body text-5xl text-brown"> Projects </div>
-          <Diamonds3 className="" />
-        </div>
+          <div className="flex pt-40 justify-center bg-light-pink dark:bg-brown">
+            {darkMode === "dark" ? <DiamondsDark /> : <Diamonds />}
+          </div>
 
-        <div className="">
-          <ProjectCard />
-        </div>
-      </div>
+          <div className="snap-start bg-light-pink dark:bg-brown" id="Projects">
+            <ProjectSection darkMode={darkMode} />
+          </div>
 
-      <div className="flex pt-20 justify-center">
-        <Diamonds className="flex" />
-      </div>
+          <div className="flex pt-20 justify-center bg-light-pink dark:bg-brown">
+            {darkMode === "dark" ? <DiamondsDark /> : <Diamonds />}
+          </div>
 
-      <div>
-        <div className="flex items-center space-x-6 pl-40 pt-40">
-          <Diamonds2 className="" />
-          <div className="font-body text-5xl text-brown"> Experience </div>
-          <Diamonds3 className="" />
-        </div>
+          <div
+            className="snap-start bg-light-pink dark:bg-brown"
+            id="Experience"
+          >
+            <ExperienceSection darkMode={darkMode} />
+          </div>
 
-        <div className="">
-          <ExperienceCards />
+          <div className="flex overflow-clip flex-nowrap py-30 justify-center bg-light-pink dark:bg-brown">
+            {darkMode === "dark" ? (
+              <DiamondsDark className="flex px-5" />
+            ) : (
+              <Diamonds className="flex px-5" />
+            )}
+            {darkMode === "dark" ? (
+              <DiamondsDark className="flex px-5" />
+            ) : (
+              <Diamonds className="flex px-5" />
+            )}
+            {darkMode === "dark" ? (
+              <DiamondsDark className="flex px-5" />
+            ) : (
+              <Diamonds className="flex px-5" />
+            )}
+            {darkMode === "dark" ? (
+              <DiamondsDark className="flex px-5" />
+            ) : (
+              <Diamonds className="flex px-5" />
+            )}
+            {darkMode === "dark" ? (
+              <DiamondsDark className="flex px-5" />
+            ) : (
+              <Diamonds className="flex px-5" />
+            )}
+            {darkMode === "dark" ? (
+              <DiamondsDark className="flex px-5" />
+            ) : (
+              <Diamonds className="flex px-5" />
+            )}
+            {darkMode === "dark" ? (
+              <DiamondsDark className="flex px-5" />
+            ) : (
+              <Diamonds className="flex px-5" />
+            )}
+            {darkMode === "dark" ? (
+              <DiamondsDark className="flex px-5" />
+            ) : (
+              <Diamonds className="flex px-5" />
+            )}
+            {darkMode === "dark" ? (
+              <DiamondsDark className="flex px-5" />
+            ) : (
+              <Diamonds className="flex px-5" />
+            )}
+          </div>
         </div>
       </div>
     </div>
