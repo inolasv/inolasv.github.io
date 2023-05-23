@@ -47,7 +47,7 @@ function App() {
         <div className="fixed top-0 left-0 right-0">
           <Toggle darkMode={darkMode} toggleDark={toggleDark}></Toggle>
           <div>
-            <NavBar />
+            <NavBar darkMode={darkMode} />
           </div>
         </div>
 
@@ -125,6 +125,8 @@ function App() {
               <Diamonds className="flex px-5" />
             )}
           </div>
+
+          <div className="bg-light-pink dark:bg-brown p-8 pr- text-brown dark:text-light-pink font-body"></div>
         </div>
       </div>
     </div>

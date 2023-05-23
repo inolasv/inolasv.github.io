@@ -9,8 +9,6 @@ import { ReactComponent as LinkedinIcon } from "../images/socials_icons/linkedin
 
 // dark-social-icons
 import { ReactComponent as GithubIconDark } from "../images/dark-mode-images/socials_icons/github.svg";
-import { ReactComponent as MailIconDark } from "../images/dark-mode-images/socials_icons/mail.svg";
-import { ReactComponent as LinkedinIconDark } from "../images/dark-mode-images/socials_icons/linkedin.svg";
 
 /**
  * Navbar
@@ -80,7 +78,7 @@ function NavBar(props) {
               target="_blank"
               rel="noreferrer"
             >
-              {darkMode === "dark" ? <MailIcon /> : <MailIconDark />}
+              <MailIcon className="fill-brown dark:fill-light-pink" />
             </a>
           </div>
 
@@ -91,7 +89,7 @@ function NavBar(props) {
               target="_blank"
               rel="noreferrer"
             >
-              {darkMode === "dark" ? <LinkedinIcon /> : <LinkedinIconDark />}
+              <LinkedinIcon className="fill-brown dark:fill-light-pink" />
             </a>
           </div>
 
@@ -102,7 +100,7 @@ function NavBar(props) {
               target="_blank"
               rel="noreferrer"
             >
-              {darkMode === "dark" ? <GithubIcon /> : <GithubIconDark />}
+              {darkMode === "dark" ? <GithubIconDark /> : <GithubIcon />}
             </a>
           </div>
         </div>
