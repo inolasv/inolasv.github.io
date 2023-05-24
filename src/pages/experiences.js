@@ -17,13 +17,14 @@ function ExperienceSection(props) {
 
   return (
     <>
-      <div className="flex items-center space-x-6 pl-40 pt-40">
+      <div className="flex items-center space-x-6 pl-5 lg:pl-40 pt-40">
         {darkMode === "dark" ? <Diamonds2Dark /> : <Diamonds2 />}
-        <div className="font-body text-5xl text-brown dark:text-light-pink">
+        <div className="font-body text-3xl lg:text-5xl  text-brown dark:text-light-pink">
           {" "}
           Experience{" "}
         </div>
         {darkMode === "dark" ? <Diamonds3Dark /> : <Diamonds3 />}
+        <div className="lg:w-0 w-20"> </div>
       </div>
 
       <div className="pb-40">

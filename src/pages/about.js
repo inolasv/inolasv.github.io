@@ -7,16 +7,16 @@ import React from "react";
 function AboutSection() {
   return (
     <>
-      <div className="flex flex-wrap flex-col px-40">
-        <div className="font-body text-4xl text-brown dark:text-light-pink pb-6">
+      <div className="flex flex-wrap flex-col pl-3 lg:px-40">
+        <div className="font-body lg:text-4xl text-3xl text-brown dark:text-light-pink pb-6">
           {" "}
           Hello! My name is
         </div>
-        <div className="font-heading text-7xl text-brown dark:text-light-pink pb-4">
+        <div className="font-heading lg:text-7xl text-5xl text-brown dark:text-light-pink pb-4">
           {" "}
           Saloni Vaishnav{" "}
         </div>
-        <div className="font-body text-md text-brown dark:text-light-pink">
+        <div className="font-body lg:text-md text-sm text-brown dark:text-light-pink">
           I am a current student at the University of Illinois Urbana-Champaign
           studying Computer Science. I&apos;ve always loved problem solving and
           figuring out how things work, and as a result felt a natural
@@ -36,7 +36,7 @@ function AboutSection() {
           while listening to my favorite music!
         </div>
       </div>
-      <div className="flex px-40"></div>
+      <div className="flex px-1 lg:px-40"></div>
     </>
   );
 }

@@ -17,14 +17,14 @@ function ProjectSection(props) {
 
   return (
     <>
-      <div className="flex items-center space-x-6 pl-40 pt-40">
+      <div className="flex items-center space-x-2 lg:space-x-6 pl-5 lg:pl-40 pt-40">
         {darkMode === "dark" ? <Diamonds2Dark /> : <Diamonds2 />}
-        <div className="font-body text-5xl text-brown dark:text-light-pink">
+        <div className="font-body text-3xl lg:text-5xl text-brown dark:text-light-pink">
           {" "}
           Projects{" "}
         </div>
         {darkMode === "dark" ? <Diamonds3Dark /> : <Diamonds3 />}
-        <div className="font-body text-sm text-brown dark:text-light-pink italic">
+        <div className="font-body lg:text-sm text-xs text-brown dark:text-light-pink italic">
           {" "}
           click on a card to find out more!{" "}
         </div>

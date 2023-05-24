@@ -30,20 +30,20 @@ function ProjectCard() {
       <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 w-full h-full">
         <div className="absolute w-screen h-screen" onClick={onHidePopup}></div>
         <div className="bg-dark-pink flex flex-col outline outline-brown dark:outline-light-pink outline-8 rounded-lg border-brown dark:border-light-pink border-8 hover: relative w-2/3 h-96 my-6 mx-auto max-w-3xl">
-          <div className="font-heading text-brown text-3xl flex pt-10 pl-9 pb-3">
+          <div className="font-heading text-brown text-2xl lg:text-3xl flex pt-4 lg:pt-10 pl-3 lg:pl-9 pb-3">
             {popupData.title}
           </div>
 
           {/* tags */}
           <div className="flex-basis">
-            <div className="flex flex-row flex-wrap justify-left pl-9 space-x-3">
+            <div className="flex flex-row flex-wrap justify-left pl-3 lg:pl-9 space-x-3">
               {popupData.tags.map((tag) => {
                 return (
                   <div
                     key={tag + popupData.id}
                     className="bg-brown w-auto h-auto px-2 py-1 rounded-xl"
                   >
-                    <div className="font-body text-light-pink text-sm ">
+                    <div className="font-body text-light-pink text-xs lg:text-sm ">
                       {tag}{" "}
                     </div>
                   </div>
@@ -54,7 +54,7 @@ function ProjectCard() {
 
           {/* body */}
           <div className="flex pt-5 px-9 grow">
-            <div className="font-body text-brown text-lg">
+            <div className="font-body text-brown text-sm lg:text-lg">
               {popupData.description}
             </div>
           </div>
