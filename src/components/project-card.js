@@ -27,16 +27,16 @@ function ProjectCard() {
 
   const Popup = () => (
     <div>
-      <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 w-full h-full">
+      <div className="justify-center items-center flex fixed inset-0 z-50 lg:w-full lg:h-full w-fit h-fit">
         <div className="absolute w-screen h-screen" onClick={onHidePopup}></div>
-        <div className="bg-dark-pink flex flex-col outline outline-brown dark:outline-light-pink outline-8 rounded-lg border-brown dark:border-light-pink border-8 hover: relative w-2/3 h-96 my-6 mx-auto max-w-3xl">
+        <div className="bg-dark-pink flex flex-col scrollbar-hide overflow-scroll outline outline-brown dark:outline-light-pink lg:outline-8 rounded-lg border-brown dark:border-light-pink border-4 lg:border-8 hover: relative w-2/3 h-96 my-6 mx-auto max-w-3xl">
           <div className="font-heading text-brown text-2xl lg:text-3xl flex pt-4 lg:pt-10 pl-3 lg:pl-9 pb-3">
             {popupData.title}
           </div>
 
           {/* tags */}
           <div className="flex-basis">
-            <div className="flex flex-row flex-wrap justify-left pl-3 lg:pl-9 space-x-3">
+            <div className="flex flex-row overflow-x-scrol scrollbar-hide justify-left pl-3 lg:pl-9 space-x-3">
               {popupData.tags.map((tag) => {
                 return (
                   <div

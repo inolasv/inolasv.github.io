@@ -21,7 +21,7 @@
             "Node.js",
             "React"
         ],
-        "link": "https://github.com/inolasv/spotify-library",
+        "link": "https://spotify-library-tan.vercel.app/",
         "description": "Create a fun image that displays your spotify statistics to share and compare with your friends! This webapp uses the Spotify API to allow users to sign in and authenticate their Spotify login information to display their favorite artists and songs."
     },
     {

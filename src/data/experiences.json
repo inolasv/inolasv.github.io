@@ -1,16 +1,35 @@
 [
     {
-        "id": 1,
-        "title": "Reflections | Projections Co-Director",
-        "description": ["Reflections | Projections (R|P) is the midwest's largest student run technology conference, and brings in 2000+ attendees as well as 30+ comapnies and speakers every year", 
-                        "I am currently leading the team of 40 staff members, including 10 team leads, in order to acquire corporate partnerships, determine week-of logistics, and develop our new open source attendee tracking system"
-                    ]
+        "id": 2,
+        "title": "Software Development Intern at Citi [Current]",
+        "description": [
+            "Migrating a multitude of essential microservices under the Branded Cards Middleware Team to a different cloud provider",
+            "Undertaking a side project to develop a full-stack database visualization project from scratch using SQL and Java Spring Boot"
+        ]
     },
     {
-        "id": 2,
-        "title": "Software Development Intern at Citi",
-        "description": ["I am working in Personal Banking and Wealth Management Technology (PBWMT) to create software for a variety of end users", 
-            "I am currently in the software development track under the ___ team to ____", 
-            "Learning ___"]
+        "id": 1,
+        "title": "Reflections | Projections Co-Director [Current]",
+        "description": [
+            "Reflections | Projections (R|P) is the midwest's largest student run technology conference, and brings in 2000+ attendees as well as 30+ comapnies and speakers every year",
+            "Currently leading the team of 40 staff members, including 10 team leads, in order to acquire corporate partnerships, determine week-of logistics, and develop our new attendee tracking system"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "CS STARS",
+        "description": [
+            "Participated in a research project focusing on Human Computer Interaction and Usable Security and Privacy under Dr. Camille Cobb",
+            "Utilized Python libraries to scrape and collect information about television shows directed towards teen audiences, and developed detailed visualizations to hypothesize about the findings",
+            "Worked on a variety of leadership activities that catered to college and high school students to broaden participation of underrepresented individuals in computer science."
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Teaching Assistant at Codinu",
+        "description": [
+            "Instructed students on the fundamentals of Python and Scratch, and led both technical and unplugged lessons on computer science principles",
+            "Provided individualized support, troubleshooting, and conceptual clarification during both summer camps and evening classes."
+        ]
     }
 ]
