@@ -42,19 +42,6 @@ function NavBar(props) {
                 About Me
               </Link>
             </li>
-            {/* <!-- Projects link --> */}
-            <li className="mb-4 mr-8 lg:mb-0 lg:pr-2">
-              <Link
-                activeClass="underline"
-                smooth={true}
-                spy={true}
-                offset={-70}
-                duration={500}
-                to="Projects"
-              >
-                Projects
-              </Link>
-            </li>
             {/* <!-- Experiences link --> */}
             <li className="mb-4 mr-8 lg:mb-0 lg:pr-2">
               <Link
@@ -66,6 +53,19 @@ function NavBar(props) {
                 to="Experience"
               >
                 Experience
+              </Link>
+            </li>
+            {/* <!-- Projects link --> */}
+            <li className="mb-4 mr-8 lg:mb-0 lg:pr-2">
+              <Link
+                activeClass="underline"
+                smooth={true}
+                spy={true}
+                offset={-70}
+                duration={500}
+                to="Projects"
+              >
+                Projects
               </Link>
             </li>
           </ul>

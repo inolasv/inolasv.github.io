@@ -27,7 +27,7 @@ function ExperienceSection(props) {
         <div className="lg:w-0 w-20"> </div>
       </div>
 
-      <div className="pb-40">
+      <div className="pb-14">
         <ExperienceCards />
       </div>
     </>

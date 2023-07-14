@@ -63,14 +63,6 @@ function App() {
             {darkMode === "dark" ? <DiamondsDark /> : <Diamonds />}
           </div>
 
-          <div className="snap-start bg-light-pink dark:bg-brown" id="Projects">
-            <ProjectSection darkMode={darkMode} />
-          </div>
-
-          <div className="flex pt-20 justify-center bg-light-pink dark:bg-brown">
-            {darkMode === "dark" ? <DiamondsDark /> : <Diamonds />}
-          </div>
-
           <div
             className="snap-start bg-light-pink dark:bg-brown"
             id="Experience"
@@ -78,7 +70,18 @@ function App() {
             <ExperienceSection darkMode={darkMode} />
           </div>
 
-          <div className="flex overflow-clip flex-nowrap py-30 justify-center bg-light-pink dark:bg-brown">
+          <div className="flex pt-10 justify-center bg-light-pink dark:bg-brown">
+            {darkMode === "dark" ? <DiamondsDark /> : <Diamonds />}
+          </div>
+
+          <div
+            className="snap-start bg-light-pink dark:bg-brown pb-24"
+            id="Projects"
+          >
+            <ProjectSection darkMode={darkMode} />
+          </div>
+
+          <div className="flex overflow-clip flex-nowrap justify-center bg-light-pink dark:bg-brown">
             {darkMode === "dark" ? (
               <DiamondsDark className="flex px-5" />
             ) : (
@@ -125,8 +128,6 @@ function App() {
               <Diamonds className="flex px-5" />
             )}
           </div>
-
-          <div className="bg-light-pink dark:bg-brown p-8 pr- text-brown dark:text-light-pink font-body"></div>
         </div>
       </div>
     </div>

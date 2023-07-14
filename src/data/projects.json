@@ -1,5 +1,17 @@
 [
     {
+        "id": 7,
+        "title": "Escape Sliding Puzzle",
+        "image": "slidingpuzzle.png",
+        "tags": [
+            "Javascript",
+            "Node.js",
+            "React"
+        ],
+        "link": "https://inolasv.github.io/sliding-puzzle/",
+        "description": "This game emmulates the Khun Phaen physical block puzzle in a digital way. Users can use mouse, touch, or keyboard to try to solve this brainteaser."
+    },
+    {
         "id": 1,
         "title": "SafelyLA",
         "image": "safelyla.png",

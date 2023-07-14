@@ -83,7 +83,7 @@ function ProjectCard() {
             <div
               key={data.id}
               onClick={() => onShowPopup(data)}
-              className="bg-dark-pink rounded-md outline outline-md outline-brown dark:outline-dark-pink hover:shadow-xl dark:shadow-[#FFEBEB33] shadow-md w-80 h-auto flex flex-col m-24 items-center justify-start"
+              className="bg-dark-pink rounded-md outline outline-md outline-brown dark:outline-dark-pink hover:shadow-xl dark:shadow-[#FFEBEB33] shadow-md w-80 h-auto flex flex-col m-14 items-center justify-start"
             >
               <div className="text-brown font-heading text-2xl flex text-center px-2 py-10">
                 {" "}
@@ -92,7 +92,7 @@ function ProjectCard() {
               <img
                 className="flex object-contain w-auto max-h-64 aspect-auto px-2 pb-2"
                 src={getImgUrl(data.image)}
-                alt="rate my geneds image"
+                alt="project image"
               />
             </div>
           );
