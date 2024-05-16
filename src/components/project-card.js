@@ -30,7 +30,14 @@ function ProjectCard() {
       <div className="justify-center items-center flex fixed inset-0 z-50 lg:w-full lg:h-full w-fit h-fit">
         <div className="absolute w-screen h-screen" onClick={onHidePopup}></div>
         <div className="bg-dark-pink flex flex-col scrollbar-hide overflow-scroll outline outline-brown dark:outline-light-pink lg:outline-8 rounded-lg border-brown dark:border-light-pink border-4 lg:border-8 hover: relative w-2/3 h-96 my-6 mx-auto max-w-3xl">
-          <div className="font-heading text-brown text-2xl lg:text-3xl flex pt-4 lg:pt-10 pl-3 lg:pl-9 pb-3">
+          <div
+            className="font-body text-brown text-2xl lg:text-3xl flex pt-2 pl-3 lg:pl-80 lg:ml-96"
+            onClick={onHidePopup}
+          >
+            <button> X </button>
+          </div>
+
+          <div className="font-heading text-brown text-2xl lg:text-3xl flex lg:pt-4 pl-3 lg:pl-9 pb-3">
             {popupData.title}
           </div>
 

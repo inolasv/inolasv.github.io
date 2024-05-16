@@ -1,36 +1,41 @@
 [
-    {
-        "id": 2,
-        "title": "Software Development Intern at Citi [Current]",
-        "description": [
-            "Migrating a multitude of essential microservices under the Branded Cards Middleware Team to a different cloud provider",
-            "Developing automated validation scripts for developers to utilize",
-            "Undertaking a side project to develop a full-stack database visualization project from scratch using SQL and Java Spring Boot"
-        ]
-    },
-    {
-        "id": 1,
-        "title": "Reflections | Projections Co-Director [Current]",
-        "description": [
-            "Reflections | Projections (R|P) is the midwest's largest student run technology conference, and brings in 2000+ attendees as well as 30+ comapnies and speakers every year",
-            "Currently leading the team of 40 staff members, including 10 team leads, in order to acquire corporate partnerships, determine week-of logistics, and develop our new attendee tracking system"
-        ]
-    },
-    {
-        "id": 3,
-        "title": "CS STARS",
-        "description": [
-            "Participated in a research project focusing on Human Computer Interaction and Usable Security and Privacy under Dr. Camille Cobb",
-            "Utilized Python libraries to scrape and collect information about television shows directed towards teen audiences, and developed detailed visualizations to hypothesize about the findings",
-            "Worked on a variety of leadership activities that catered to college and high school students to broaden participation of underrepresented individuals in computer science."
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Teaching Assistant at Codinu",
-        "description": [
-            "Instructed students on the fundamentals of Python and Scratch, and led both technical and unplugged lessons on computer science principles",
-            "Provided individualized support, troubleshooting, and conceptual clarification during both summer camps and evening classes."
-        ]
-    }
+  {
+    "id": 1,
+    "title": "Software Development Intern at Atlassian [Current]",
+    "description": ["TBD"]
+  },
+  {
+    "id": 2,
+    "title": "Software Development Intern at Citi",
+    "description": [
+      "Performed cloud migration for essential microservices under the Branded Cards Middleware Team",
+      "Developed automated validation scripts for developers to utilize to make configuration changes more efficient",
+      "Undertook a side project to develop a full-stack database visualization project from scratch using SQL and Java Spring Boot"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Reflections | Projections Co-Director",
+    "description": [
+      "Reflections | Projections (R|P) is the midwest's largest student run technology conference, and brings in 2000+ attendees as well as 30+ comapnies and speakers every year",
+      "Led the team of 40 staff members, including 10 team leads, in order to acquire corporate partnerships, determine week-of logistics, and develop our new attendee tracking system"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "CS STARS",
+    "description": [
+      "Participated in a research project focusing on Human Computer Interaction and Usable Security and Privacy under Dr. Camille Cobb",
+      "Utilized Python libraries to scrape and collect information about television shows directed towards teen audiences, and developed detailed visualizations to hypothesize about the findings",
+      "Worked on a variety of leadership activities that catered to college and high school students to broaden participation of underrepresented individuals in computer science."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Teaching Assistant at Codinu",
+    "description": [
+      "Instructed students on the fundamentals of Python and Scratch, and led both technical and unplugged lessons on computer science principles",
+      "Provided individualized support, troubleshooting, and conceptual clarification during both summer camps and evening classes."
+    ]
+  }
 ]

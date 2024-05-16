@@ -1,89 +1,66 @@
 [
-    {
-        "id": 7,
-        "title": "Escape Sliding Puzzle",
-        "image": "slidingpuzzle.png",
-        "tags": [
-            "Javascript",
-            "Node.js",
-            "React"
-        ],
-        "link": "https://inolasv.github.io/sliding-puzzle/",
-        "description": "This game emmulates the Khun Phaen physical block puzzle in a digital way. Users can use mouse, touch, or keyboard to try to solve this brainteaser."
-    },
-    {
-        "id": 1,
-        "title": "SafelyLA",
-        "image": "safelyla.png",
-        "tags": [
-            "MySQL",
-            "Javascript",
-            "Node.js",
-            "React"
-        ],
-        "link": "https://github.com/inolasv/sp23-cs411-team010-safelyla",
-        "description": "This web application allows users to use real Los Angeles crime data as well as user generated reviews to plan safe and educated trips to LA. The main purpose of this project was to use advanced MySQL queries and JavaScript libraries to create a full stack web app with a complete backend."
-    },
-    {
-        "id": 4,
-        "title": "Spotify 'Library'",
-        "image": "spot.png",
-        "tags": [
-            "Javascript",
-            "Node.js",
-            "React"
-        ],
-        "link": "https://spotify-library-tan.vercel.app/",
-        "description": "Create a fun image that displays your spotify statistics to share and compare with your friends! This webapp uses the Spotify API to allow users to sign in and authenticate their Spotify login information to display their favorite artists and songs."
-    },
-    {
-        "id": 2,
-        "title": "RoomHub",
-        "image": "roomhub.png",
-        "tags": [
-            "MySQL",
-            "Python",
-            "Django",
-            "Swift"
-        ],
-        "link": "https://github.com/deeya-bodas/slayOS",
-        "description": "RoomHub is an innovative mobile application that allows users to have a more seamless roommate experience. There are features to track shared expenses, an algorithm to craft an equal and effective chores cycle, and way to send notes/memos to roommates. "
-    },
-    {
-        "id": 5,
-        "title": "Does Technology in Teen Dramas Impact How Viewers use Technology?",
-        "image": "research.png",
-        "tags": [
-            "Python",
-            "Tableau"
-        ],
-        "link": "https://cs.illinois.edu/broadening-participation-computing/programs/csambassadors/participants/51210",
-        "description": "This research project centered around usable security and privacy and analyzed the occurences of technology related keywords in teen dramas. We also looked at any trends that might exist regarding genre, release year, popularity, and/or rating of the tv shows."
-    },
-    {
-        "id": 3,
-        "title": "Rate My GenEds @ UIUC",
-        "image": "ratemygeneds.png",
-        "tags": [
-            "MongoDB",
-            "Javascript",
-            "Node.js",
-            "React"
-        ],
-        "link": "https://github.com/inolasv/dev-ada-ratemygeneds",
-        "description": "Choosing which general education classes to take at the University of Illinois Urbana-Champaign can be a hassle to plan around core major classes. Rate My Geneds @ UIUC is a user centric web application that allows students at UIUC to make educated decisions in which gen-eds to take through reviews and ratings given by other students who have already taken those classes."
-    },
-    {
-        "id": 6,
-        "title": "Zombie Tracker",
-        "image": "zombie.png",
-        "tags": [
-            "Javascript",
-            "Node.js",
-            "React",
-            "Python"
-        ],
-        "link": "https://github.com/inolasv/CodeAda-Runtime-Terrors-2021",
-        "description": "Worried about your friends becoming zombies? This project will help you diagnose if they have been ‘zombie-fied’ and provide maps to track any other ‘zombifications’ that might have happened in your area! This project analogizes the Covid-19 pandemic in a creative way, and was created for the CodeAda Hackathon held by the Women in Computer Science organization."
-    }
+  {
+    "id": 8,
+    "title": "BookApp",
+    "image": "bookapp.png",
+    "tags": ["SwiftUI"],
+    "link": "https://github.com/inolasv/CS465-BookApp",
+    "description": "This app allows people to share books with their community and discover what others might be reading in a user friendly interface"
+  },
+  {
+    "id": 7,
+    "title": "Escape Sliding Puzzle",
+    "image": "slidingpuzzle.png",
+    "tags": ["Javascript", "Node.js", "React"],
+    "link": "https://inolasv.github.io/sliding-puzzle/",
+    "description": "This game emmulates the Khun Phaen physical block puzzle in a digital way. Users can use mouse, touch, or keyboard to try to solve this brainteaser."
+  },
+  {
+    "id": 1,
+    "title": "SafelyLA",
+    "image": "safelyla.png",
+    "tags": ["MySQL", "Javascript", "Node.js", "React"],
+    "link": "https://github.com/inolasv/sp23-cs411-team010-safelyla",
+    "description": "This web application allows users to use real Los Angeles crime data as well as user generated reviews to plan safe and educated trips to LA. The main purpose of this project was to use advanced MySQL queries and JavaScript libraries to create a full stack web app with a complete backend."
+  },
+  {
+    "id": 4,
+    "title": "Spotify 'Library'",
+    "image": "spot.png",
+    "tags": ["Javascript", "Node.js", "React"],
+    "link": "https://spotify-library-tan.vercel.app/",
+    "description": "Create a fun image that displays your spotify statistics to share and compare with your friends! This webapp uses the Spotify API to allow users to sign in and authenticate their Spotify login information to display their favorite artists and songs."
+  },
+  {
+    "id": 2,
+    "title": "RoomHub",
+    "image": "roomhub.png",
+    "tags": ["MySQL", "Python", "Django", "Swift"],
+    "link": "https://github.com/deeya-bodas/slayOS",
+    "description": "RoomHub is an innovative mobile application that allows users to have a more seamless roommate experience. There are features to track shared expenses, an algorithm to craft an equal and effective chores cycle, and way to send notes/memos to roommates. "
+  },
+  {
+    "id": 5,
+    "title": "Does Technology in Teen Dramas Impact How Viewers use Technology?",
+    "image": "research.png",
+    "tags": ["Python", "Tableau"],
+    "link": "https://cs.illinois.edu/broadening-participation-computing/programs/csambassadors/participants/51210",
+    "description": "This research project centered around usable security and privacy and analyzed the occurences of technology related keywords in teen dramas. We also looked at any trends that might exist regarding genre, release year, popularity, and/or rating of the tv shows."
+  },
+  {
+    "id": 3,
+    "title": "Rate My GenEds @ UIUC",
+    "image": "ratemygeneds.png",
+    "tags": ["MongoDB", "Javascript", "Node.js", "React"],
+    "link": "https://github.com/inolasv/dev-ada-ratemygeneds",
+    "description": "Choosing which general education classes to take at the University of Illinois Urbana-Champaign can be a hassle to plan around core major classes. Rate My Geneds @ UIUC is a user centric web application that allows students at UIUC to make educated decisions in which gen-eds to take through reviews and ratings given by other students who have already taken those classes."
+  },
+  {
+    "id": 6,
+    "title": "Zombie Tracker",
+    "image": "zombie.png",
+    "tags": ["Javascript", "Node.js", "React", "Python"],
+    "link": "https://github.com/inolasv/CodeAda-Runtime-Terrors-2021",
+    "description": "Worried about your friends becoming zombies? This project will help you diagnose if they have been ‘zombie-fied’ and provide maps to track any other ‘zombifications’ that might have happened in your area! This project analogizes the Covid-19 pandemic in a creative way, and was created for the CodeAda Hackathon held by the Women in Computer Science organization."
+  }
 ]

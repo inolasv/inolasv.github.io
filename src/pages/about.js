@@ -1,7 +1,6 @@
 import React from "react";
 import MyPic from "../images/mypic.png";
-import Resume from "../components/Saloni-Vaishnav-Resume-7-2-23.pdf";
-
+import Resume from "../components/Saloni-Vaishnav-Resume_4-10-24.pdf";
 /**
  * Projects section
  * @return {div} the html code
@@ -20,7 +19,7 @@ function AboutSection() {
       <div className="flex bg-light-pink dark:bg-brown lg:flex-row flex-col">
         <div className="flex flex-wrap flex-col lg:pr-20">
           <div className="font-body lg:px-0 px-5 lg:text-lg text-md text-brown dark:text-light-pink">
-            I&apos;m a current student at University of Illinois
+            I&apos;m a current masters student at University of Illinois
             Urbana-Champaign studying Computer Science. I&apos;ve always loved
             figuring out how things work on a deeper level, as well as
             understanding about how people can interact with different things
@@ -28,14 +27,14 @@ function AboutSection() {
             <br />
             I have the most experience in fullstack development, including
             backend APIs and frontend web applications. I also enjoy learning
-            about systems programming at the lower level.
+            about systems programming and networking at the lower level.
             <br />
             <br />
-            In college I&apos;ve been a part of Women in Computer Science as a
-            Social Co-Chair for a year, was part of the Hackillinois 2023 staff,
-            and am the current Co-Director of Reflections | Projections. Apart
-            from that, I love to crochet, puzzle, read books, and go for a run
-            outside all while listening to my favorite music! &ensp;
+            In college I&apos;ve been a part of Women in Computer Science, the
+            Hackillinois 2023 staff, and was the Co-Director of Reflections |
+            Projections. Apart from that, I love to crochet, puzzle, read books,
+            and go for a run outside all while listening to my favorite music!
+            &ensp;
             <a
               className="font-body font-bold lg:text-lg text-md underline"
               href={Resume}
