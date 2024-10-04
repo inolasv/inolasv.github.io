@@ -1,6 +1,7 @@
 import React from "react";
 import MyPic from "../images/mypic.png";
-import Resume from "../components/Saloni-Vaishnav-Resume_4-10-24.pdf";
+import Resume from "../components/Saloni-Vaishnav-Resume_8-19-24.pdf";
+
 /**
  * Projects section
  * @return {div} the html code

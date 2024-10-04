@@ -4,7 +4,6 @@ import React from "react";
 import "../styles/App.css";
 
 // diamonds
-// import main_image from '../images/short_term_receiptify.png'; // Tell webpack this JS file uses this image
 import { ReactComponent as Diamonds } from "../images/diamonds-divider.svg";
 import { ReactComponent as DiamondsDark } from "../images/dark-mode-images/diamonds-divider.svg";
 

@@ -1,8 +1,20 @@
 [
   {
+    "id": 0,
+    "title": "Infrastructure Chair for Women in Computer Science [current]",
+    "description": [
+      "Maintaining the technical infrastructure behind UIUC's Women in Computer Science organization",
+      "Leading a team of 10 people through a variety of projects related to web development and full-stack development"
+    ]
+  },
+  {
     "id": 1,
-    "title": "Software Development Intern at Atlassian [Current]",
-    "description": ["TBD"]
+    "title": "Software Development Intern at Atlassian",
+    "description": [
+      "Worked on adding pull request labels, a highly requested feature, into Bitbucket Cloud’s pull requests using React and Typescript",
+      "Incorporated new database models and endpoints into the Bitbucket Cloud API with Python’s Django to support the feature",
+      "Implemented other fixes to both the frontend and backend of Bitbucket Cloud to support the team’s projects"
+    ]
   },
   {
     "id": 2,
